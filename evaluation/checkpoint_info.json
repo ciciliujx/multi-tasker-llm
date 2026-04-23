@@ -1,0 +1,68 @@
+{
+  "checkpoint_path": "tinker://fd14953b-eff7-55e9-9c57-3154fc935ba9:train:0/sampler_weights/final_8b_v1",
+  "state_path": "tinker://fd14953b-eff7-55e9-9c57-3154fc935ba9:train:0/weights/final_8b_v1_state",
+  "intermediate_checkpoints": [
+    {
+      "step": 500,
+      "path": "tinker://fd14953b-eff7-55e9-9c57-3154fc935ba9:train:0/sampler_weights/final_8b_v1_step500",
+      "name": "final_8b_v1_step500"
+    },
+    {
+      "step": 1000,
+      "path": "tinker://fd14953b-eff7-55e9-9c57-3154fc935ba9:train:0/sampler_weights/final_8b_v1_step1000",
+      "name": "final_8b_v1_step1000"
+    },
+    {
+      "step": 1500,
+      "path": "tinker://fd14953b-eff7-55e9-9c57-3154fc935ba9:train:0/sampler_weights/final_8b_v1_step1500",
+      "name": "final_8b_v1_step1500"
+    },
+    {
+      "step": 2000,
+      "path": "tinker://fd14953b-eff7-55e9-9c57-3154fc935ba9:train:0/sampler_weights/final_8b_v1_step2000",
+      "name": "final_8b_v1_step2000"
+    },
+    {
+      "step": 2500,
+      "path": "tinker://fd14953b-eff7-55e9-9c57-3154fc935ba9:train:0/sampler_weights/final_8b_v1_step2500",
+      "name": "final_8b_v1_step2500"
+    },
+    {
+      "step": 3000,
+      "path": "tinker://fd14953b-eff7-55e9-9c57-3154fc935ba9:train:0/sampler_weights/final_8b_v1_step3000",
+      "name": "final_8b_v1_step3000"
+    },
+    {
+      "step": 3500,
+      "path": "tinker://fd14953b-eff7-55e9-9c57-3154fc935ba9:train:0/sampler_weights/final_8b_v1_step3500",
+      "name": "final_8b_v1_step3500"
+    },
+    {
+      "step": 4000,
+      "path": "tinker://fd14953b-eff7-55e9-9c57-3154fc935ba9:train:0/sampler_weights/final_8b_v1_step4000",
+      "name": "final_8b_v1_step4000"
+    },
+    {
+      "step": 4500,
+      "path": "tinker://fd14953b-eff7-55e9-9c57-3154fc935ba9:train:0/sampler_weights/final_8b_v1_step4500",
+      "name": "final_8b_v1_step4500"
+    }
+  ],
+  "base_model": "meta-llama/Llama-3.1-8B",
+  "training": {
+    "num_steps": 5000,
+    "batch_size": 4,
+    "learning_rate": 0.0001,
+    "warmup_steps": 150,
+    "lora_rank": 32,
+    "max_length": 2048,
+    "data_path": "training_data.jsonl",
+    "total_examples": 29999,
+    "per_task": {
+      "GSM8K": 10000,
+      "IFEval": 10000,
+      "Code": 9999
+    },
+    "resumed_from": null
+  }
+}

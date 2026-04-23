@@ -1,0 +1,26 @@
+{
+  "type": "baseline",
+  "models": {
+    "meta-llama/Llama-3.2-3B": {
+      "ifeval/error": "No module named 'evaluation'",
+      "gsm8k/error": "No module named 'evaluation'",
+      "humaneval/error": "No module named 'evaluation'"
+    },
+    "meta-llama/Llama-3.2-1B": {
+      "google/IFEval/prompt_strict_acc": 0.14417744916820702,
+      "google/IFEval/prompt_strict_stderr": 0.015116235588583169,
+      "google/IFEval/prompt_loose_acc": 0.16820702402957485,
+      "google/IFEval/prompt_loose_stderr": 0.016096550188063007,
+      "google/IFEval/inst_strict_acc": 0.2745803357314149,
+      "google/IFEval/inst_strict_stderr": 0.015640884729100135,
+      "google/IFEval/inst_loose_acc": 0.30455635491606714,
+      "google/IFEval/inst_loose_stderr": 0.01648908625402914,
+      "google/IFEval/final_acc": 0.22288029096131598,
+      "google/IFEval/final_stderr": 0.014231343492853177,
+      "openai/gsm8k/accuracy": 0.022744503411675512,
+      "openai/gsm8k/stderr": 0.00410662063774965,
+      "openai/openai_humaneval/accuracy": 0.0,
+      "openai/openai_humaneval/stderr": 0.0
+    }
+  }
+}
