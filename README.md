@@ -23,6 +23,7 @@ Base model: `meta-llama/Llama-3.1-8B`
 ---
 
 ## Repository Structure
+```
 .
 ├── evaluation/
 │   ├── eval_all.py              # Run full evaluation on all three tasks
@@ -31,14 +32,13 @@ Base model: `meta-llama/Llama-3.1-8B`
 │   ├── eval_code.py             # Evaluate on HumanEval only
 │   ├── train_and_publish.py     # Main training script
 │   └── checkpoint_info.json     # Saved checkpoint paths and training metadata
-├── data_prep.ipynb              # Full data pipeline: loading, filtering,
-│                                #   deduplication, difficulty sampling,
-│                                #   contamination check, and final mix
+├── data_prep.ipynb              # Data pipeline: loading, filtering, deduplication,
+│                                #   difficulty sampling, contamination check, final mix
 ├── baseline_model.ipynb         # Main training notebook
-├── test_data_scan.ipynb         # Run contamination check
-├── training_data.jsonl          # Final preprocessed training data (30K examples,
-│                                #   10K per task, 1:1:1 ratio)
+├── test_data_scan.ipynb         # Contamination check against test sets
+├── training_data.jsonl          # Final preprocessed training data (30K examples, 1:1:1)
 └── README.md
+```
 
 ---
 
