@@ -129,6 +129,10 @@ Contamination-checked against all three test sets — one near-duplicate removed
 
 ---
 
+## Supplementary Documentation
+
+Additional experiment artifacts and archived training materials are provided in [`doc/`](doc/), including command history and an archived exploratory training script used during development.
+
 ## LLM Usage
 
 Claude (Anthropic) was used for brainstorming data preprocessing strategies,
