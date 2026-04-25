@@ -13,8 +13,8 @@ All training is done via LoRA fine-tuning on the [Tinker](https://tinkerhub.ai) 
 
 | Task | Baseline | Our Best |
 |---|---|---|
-| IFEval | 45.0% | 72.0% |
-| GSM8K | 50.0% | 67.2% |
+| IFEval | 45.0% | 71.3% |
+| GSM8K | 50.0% | 67.5% |
 | HumanEval | 30.0% | 48.2% |
 
 Best checkpoint: `tinker://fd14953b-eff7-55e9-9c57-3154fc935ba9:train:0/sampler_weights/final_8b_v1_step3500`  
