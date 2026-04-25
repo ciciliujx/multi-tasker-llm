@@ -35,7 +35,7 @@ Base model: `meta-llama/Llama-3.1-8B`
 ├── data_prep.ipynb              # Data pipeline: loading, filtering, deduplication,
 │                                #   difficulty sampling, contamination check, final mix
 ├── baseline_model.ipynb         # Main training notebook
-├── pseudo RL.ipynb              # Extension using pseudo reinforcement learning
+├── pseudo_RL.ipynb              # Extension using pseudo reinforcement learning
 ├── test_data_scan.ipynb         # Contamination check against test sets
 ├── training_data.jsonl          # Final preprocessed training data (30K examples, 1:1:1)
 └── README.md
