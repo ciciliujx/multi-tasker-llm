@@ -117,11 +117,11 @@ python evaluation/eval_all.py \
 
 ## Training Data
 
-The final training set (`training_data_clean.jsonl`) contains 29,998 examples in equal 1:1:1 ratio:
+The final training set (`training_data_clean.jsonl`) contains 29,999 examples in equal 1:1:1 ratio:
 
 | Task | Source | Size |
 |---|---|---|
-| Math | GSM8K train + MetaMathQA (GSM-origin) | 9,999 |
+| Math | GSM8K train + MetaMathQA (GSM-origin) | 10,000 |
 | Instruction Following | Tulu-3 `personahub_ifdata_manual_seed_v3_29980` | 10,000 |
 | Code | CodeAlpaca-20K + OpenCodeInstruct (score=1.0) | 9,999 |
 
